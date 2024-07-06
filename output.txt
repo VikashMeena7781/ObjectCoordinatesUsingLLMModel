@@ -1,0 +1,19 @@
+Response  ChatCompletion(id='chatcmpl-9WIrZAvFwqfrs1DjBzVvjC8YXDYJt', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='```json\n{\n  "x": 178,\n  "y": 141,\n  "details": "A wildfire with visible flames and smoke, likely taken from an aerial perspective"\n}\n```', role='assistant', function_call=None, tool_calls=None))], created=1717486033, model='gpt-4-1106-vision-preview', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=40, prompt_tokens=624, total_tokens=664))
+content... ```json
+{
+  "x": 178,
+  "y": 141,
+  "details": "A wildfire with visible flames and smoke, likely taken from an aerial perspective"
+}
+```
+json_str  {
+  "x": 178,
+  "y": 141,
+  "details": "A wildfire with visible flames and smoke, likely taken from an aerial perspective"
+}
+{'x': 178, 'y': 141, 'details': 'A wildfire with visible flames and smoke, likely taken from an aerial perspective'}
+--------------------------------------------------
+Detect: detect fire
+Details: A wildfire with visible flames and smoke, likely taken from an aerial perspective
+Coordinates: [178, 141]
+--------------------------------------------------
